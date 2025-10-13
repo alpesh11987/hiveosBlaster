@@ -1,5 +1,10 @@
 # Hive OS Blaster
 ## hiveOSBlaster.py
+
+_The software is provided as-is and [Extreme Networks](http://www.extremenetworks.com/) has no obligation to provide maintenance, support, updates, enhancements, or modifications. Any support provided by [Extreme Networks](http://www.extremenetworks.com/) is at its sole discretion._
+
+_Issues and/or bug fixes may be reported on in the Issues for this repository._
+
 ### Purpose
 This script with take a list of device IP Addresses or DNS names and a list of commands. An ssh session will be opened with each device and then run each of the commands in the command list. A log file will be created in a log directory for each device and the responses for each of the commands will be appended to the file.
 
